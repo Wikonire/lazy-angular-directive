@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~tippy.js/themes/light.css";
+@import "~tippy.js/dist/svg-arrow.css";
+.tippy-box[data-theme~='tomato'] {
+  background-color: tomato;
+  color: yellow;
+  margin: 5px;
+}
+.tippy-box[data-theme~='tomato'] > .tippy-svg-arrow {
+  fill: tomato;
+}
